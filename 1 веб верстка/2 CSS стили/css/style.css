@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'Graphik LCG';
+  src: url('../fonts/GraphikLCG-Medium.woff2') format('woff2'),
+    url('../fonts/GraphikLCG-Medium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+    url('../fonts/Gilroy-Regular.woff') format('woff');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+    url('../fonts/Gilroy-ExtraBold.woff') format('woff');
+  font-display: swap;
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+    url('../fonts/Gilroy-Medium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Gilroy', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #222020;
+}
+
+.curs-skillbox {
+  margin-bottom: 50px;
+  color: #fff;
+  font-family: 'Graphik LCG', sans-serif;
+}
+
+.program-curs-download {
+  padding: 20px;
+  color: #fff;
+  background-color: #2f1ce4;
+  border: 3px solid #2f1ce4;
+}
+
+.program-curs {
+  padding: 20px;
+  color: #fff;
+  background: transparent;
+  border: 3px solid #fff;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.link_return {
+  display: inline-block;
+  background-image: url('../img/return.png');
+  background-repeat: no-repeat;
+  padding-left: 25px;
+  background-size: 20px 20px;
+}
+
+.global-h {
+  margin-top: 100px;
+  padding-left: 100px;
+  font-size: 48px;
+  color: #222020;
+}
+
+.stages {
+  color: #2f1ce4;
+  padding-left: 180px;
+  font-size: 36px;
+  margin-top: 100px;
+  margin-bottom: 25px;
+}
+
+.list {
+  padding-left: 200px;
+  font-size: 18px;
+}
+
+.stage_p {
+  padding-left: 180px;
+  margin-bottom: 20px;
+}
+
+.stage_img {
+  padding-left: 200px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.table-tags {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+.table-tags_td {
+  border: 1px solid #000;
+  padding: 5px;
+  border-collapse: collapse;
+}
+
+.table-tags_th {
+  border: 1px solid #000;
+  padding: 5px;
+  border-collapse: collapse;
+}
