@@ -1,0 +1,755 @@
+@font-face {
+  font-family: 'MullerBold.woff';
+  src: url('../fonts/MullerBold.woff');
+}
+
+@font-face {
+  font-family: 'MullerBold.woff2';
+  src: url('../fonts/MullerBold.woff2');
+}
+
+@font-face {
+  font-family: 'MullerLight.woff';
+  src: url('../fonts/MullerLight.woff');
+}
+
+@font-face {
+  font-family: 'MullerLight.woff2';
+  src: url('../fonts/MullerLight.woff2');
+}
+
+@font-face {
+  font-family: 'MullerMedium.woff';
+  src: url('../fonts/MullerMedium.woff');
+}
+
+@font-face {
+  font-family: 'MullerMedium.woff2';
+  src: url('../fonts/MullerMedium.woff2');
+}
+
+@font-face {
+  font-family: 'MullerRegular.woff';
+  src: url('../fonts/MullerRegular.woff');
+}
+
+@font-face {
+  font-family: 'MullerRegular.woff2';
+  src: url('../fonts/MullerRegular.woff2');
+}
+
+html {
+  font-family: 'MullerRegular.woff';
+}
+
+body {
+  margin: 0;
+  background-color: #E5E5E5;
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.main-container {
+  margin: 0px auto;
+  width: 1170px;
+}
+
+.header_top {
+  display: flex;
+}
+
+.header_top_logo {
+  background-color: #cc9933;
+  border-radius: 15px;
+  width: 261px;
+  height: 54px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.header_top_logo:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
+
+.header_top_tel {
+  margin-top: 47px;
+  margin-bottom: 47px;
+  margin-left: 40px;
+}
+
+.header_top_tel a {
+  text-decoration: none;
+  color: #666666;
+  font-family: 'MullerRegular.woff';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.header_top_tel a:hover {
+  text-decoration: underline;
+  color: #cc9933;
+}
+
+.header_top_login {
+  margin-left: 550px;
+  margin-top: 49px;
+  margin-bottom: 49px;
+  padding-left: 28px;
+  font-family: 'MullerRegular.woff';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #cc9933;
+  background-image: url('../img/lk-form.png');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  height: 24px;
+  cursor: pointer;
+}
+
+.header_top_login:hover {
+  text-decoration: underline;
+}
+
+.header_top_logo_svg {
+  padding-top: 7px;
+  padding-left: 23.18px;
+  margin-bottom: 7px;
+}
+
+.header_top_logo_rectangle {
+  margin-top: 8px;
+  margin-left: 6px;
+  margin-bottom: 8px;
+}
+
+
+.header_nav {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  border-radius: 15px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+
+}
+
+.header_nav_item {
+  list-style-type: none;
+  display: inline;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  padding-left: 45px;
+  font-family: 'MullerRegular.woff';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.header_nav_item a {
+  color: #666666;
+  text-decoration: none;
+}
+
+.header_nav_item a:hover {
+  text-decoration: underline;
+  color: #cc9933;
+}
+
+.header_nav_item_rectangle {
+  list-style-type: none;
+  padding-left: 56px;
+}
+
+.header_nav_item__btn_tur {
+  display: inline;
+  padding-left: 57px;
+}
+
+.header_nav_item__btn_tur button {
+  width: 107px;
+  height: 42px;
+  background: transparent;
+  border: 1px solid #cc9933;
+  border-radius: 10px;
+  color: #cc9933;
+  font-family: 'MullerRegular.woff';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+.header_nav_item__btn_call {
+  display: inline;
+  padding-left: 40px;
+
+}
+
+.header_nav_item__btn_call button {
+  width: 177px;
+  height: 42px;
+  background: transparent;
+  background: transparent;
+  border: 1px solid #cc9933;
+  border-radius: 10px;
+  color: #cc9933;
+  font-family: 'MullerRegular.woff';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+.header_nav_item__btn_tur button:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5)
+}
+
+.header_nav_item__btn_call button:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5)
+}
+
+.content_name {
+  margin-top: 70px;
+  margin-left: 40px;
+  margin-bottom: 0;
+  font-family: 'MullerRegular.woff';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: #333333;
+}
+
+.offer {
+  list-style: none;
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding: 0;
+
+
+}
+
+.special-offer {
+  background-image: url('../img/special-offer1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 573px;
+  height: 258px;
+  border-radius: 15px;
+  box-shadow: 573px 0 0 0 rgba(66, 85, 107, 0.226) inset;
+}
+
+.special-offer:hover {
+  transition: all .4s ease;
+  box-shadow: none;
+}
+
+.special-offer_item__name {
+  width: 299px;
+  height: 80px;
+  color: #ffffff;
+  font-family: 'MullerRegular.woff';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-bottom: 15px;
+}
+
+.special-offer_item_price {
+  color: #ffffff;
+  font-family: 'MullerRegular.woff';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+.hot_tour {
+  background-image: url('../img/special-offer2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 573px;
+  height: 258px;
+  margin-top: 23px;
+  border-radius: 15px;
+  box-shadow: 573px 0 0 0 rgba(66, 85, 107, 0.226) inset;
+}
+
+.hot_tour:hover {
+  transition: all .4s ease;
+  box-shadow: none;
+}
+
+.special-offer_hotel {
+  display: inline;
+  width: 573px;
+  height: 540px;
+  margin-left: 23px;
+  background-image: url('../img/special-offer3.jpg');
+  background-size: 573px 540px;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  box-shadow: 573px 0 0 0 rgba(66, 85, 107, 0.226) inset;
+}
+
+.special-offer_hotel:hover {
+  transition: all .4s ease;
+  box-shadow: none;
+}
+
+.special-offer_hotel_name {
+  width: 299px;
+  height: 110px;
+  color: #ffffff;
+  font-family: 'MullerRegular.woff';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  margin-top: 221px;
+  margin-left: 40px;
+  margin-bottom: 15px;
+}
+
+.special-offer_hotel_price {
+  color: #ffffff;
+  font-family: 'MullerRegular.woff';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+.special-offer_item__more {
+  text-decoration: none;
+  color: #ffcc66;
+  font-family: 'MullerRegular.woff';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 47px;
+  margin-left: 40px;
+  background-image: url('../img/special-offer-next.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 15px;
+}
+
+.special-offer_item__more:hover {
+  text-decoration: underline;
+}
+
+article {
+  text-decoration: none;
+  color: #000000;
+  font-family: 'MullerRegular.woff';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  margin-top: 11px;
+}
+
+.service {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 684px;
+  margin-bottom: 100px;
+}
+
+.service_item {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  margin-top: 23px;
+  margin-right: 20px;
+  padding: 0;
+  width: 573px;
+  height: 331px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.exclusive_service {
+  background-image: url('../img/service-exclusive.png');
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.rent {
+  background-image: url('../img/service-rent.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  margin-right: 0;
+}
+
+.spa {
+  background-image: url('../img/service-spa.png');
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.parking {
+  background-image: url('../img/service-parking.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  margin-right: 0;
+}
+
+.service_item h4 {
+  margin-top: 191px;
+  margin-bottom: 0;
+  margin-left: 45px;
+  font-family: 'MullerRegular.woff';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 200%;
+}
+
+.service_item a {
+  background-image: url('../img/special-offer-next.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 15px;
+  text-decoration: none;
+  color: #cc9933;
+}
+
+.service_item a:hover {
+  text-decoration: underline;
+}
+
+.service_item p {
+  margin-top: 0;
+  margin-left: 45px;
+  margin-right: 126px;
+  font-family: 'MullerRegular.woff';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+}
+
+.benefits {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style: none;
+  height: 603px;
+  padding: 0;
+}
+
+.benefits_item {
+  margin-top: 23px;
+  margin-right: 23px;
+  background-color: #ffffff;
+  min-width: 275px;
+  border-radius: 15px;
+  min-height: 275px;
+  position: relative;
+}
+
+.benefits_last_item {
+  margin-right: 0;
+}
+
+.benefits_item p {
+  width: 188px;
+  height: 118px;
+  margin-left: 45px;
+  font-family: 'MullerRegular.woff';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+}
+
+.benefits_item img {
+  margin-top: 42px;
+  margin-left: 45px;
+}
+
+/*form-tour*/
+
+
+/*section contacts*/
+
+.contacts_list {
+  margin: 0;
+  width: 375px;
+  padding-left: 46px;
+}
+
+.contacts_item {
+  border-bottom: 1px solid #c4c4c4;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.contacts_info {
+  background-color: #ffffff;
+  border-radius: 15px;
+  background-image: url('../img/contacts_bg.png');
+  background-repeat: no-repeat;
+  background-position-x: 471px;
+  background-position-y: 44px;
+  height: 618px;
+  padding-top: 44px;
+}
+
+.contacts_item_headding {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+  padding-top: 25px;
+}
+
+.contacts_item_description {
+  padding-top: 25px;
+  padding-bottom: 23px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.contacts_item_description_1 {
+  padding-left: 83px;
+}
+
+.contacts_item_description_2 {
+  padding-left: 47px;
+}
+
+.contacts_item_description_3 {
+  padding-left: 84px;
+  color: #999999;
+}
+
+.contacts_item_description_4 {
+  padding-left: 74px;
+}
+
+.contacts_tell {
+  text-decoration: none;
+  color: #CC9933;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.contacts_email {
+  text-decoration: none;
+  color: #CC9933;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.contacts_tell:hover {
+  color: #e9c379
+}
+
+.contacts_email:hover {
+  color: #e9c379
+}
+
+.contacts_tell:focus {
+  color: #CC9933;
+  border: 1px solid #CC9933;
+}
+
+.contacts_email:focus {
+  color: #CC9933;
+  border: 1px solid #CC9933;
+}
+
+.contacts_tell:active {
+  color: #A47312;
+  border: none;
+}
+
+.contacts_email:active {
+  color: #A47312;
+  border: none;
+}
+
+.contacts_route_btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #cc9933;
+  margin-left: 45px;
+  margin-top: 50px;
+  background: transparent;
+  width: 213px;
+  height: 70px;
+  border: 1px solid #cc9933;
+  border-radius: 10px;
+}
+
+.contacts_route_btn:hover {
+  color: #ffffff;
+  background-color: #CC9933;
+}
+
+.contacts_route_btn:focus {
+  color: #ffffff;
+  background-color: #CC9933;
+}
+
+.contacts_route_btn:active {
+  color: #ffffff;
+  background-color: #A47312;
+}
+
+/*footer*/
+
+.footer {
+  margin-top: 19px;
+  border-radius: 15px;
+  background-color: #333333;
+  height: 341px;
+  background-image: url('../img/footer_bg.svg');
+  background-repeat: no-repeat;
+  background-size: 254px 228px;
+  background-position-x: 738px;
+  background-position-y: 113px;
+}
+
+.footer_container {
+  display: flex;
+  padding-top: 51px;
+
+  vertical-align: top;
+
+}
+
+/*footer_left*/
+
+.footer_left {
+  display: block;
+  padding-left: 52px;
+  width: 320px;
+}
+
+.left_info {
+  margin: 0;
+  margin-bottom: 49px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 190%;
+  color: #FFFFFF;
+}
+
+.left_info_link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #CC9933;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.left_info_link:hover {
+  color: #e9c379
+}
+
+.left_info_link:focus {
+  color: #CC9933;
+  border: 1px solid #CC9933;
+}
+
+.left_info_link:active {
+  color: #A47312;
+  border: none;
+}
+
+/*footer_center*/
+
+.footer_center {
+  display: block;
+  padding-left: 102px;
+  width: 358px;
+}
+
+.center_info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+/*footer_right*/
+
+.footer_right {
+  display: block;
+  padding-left: 260px;
+  width: 35px;
+}
+
+.social_link {
+  width: 25px;
+  height: 25px;
+}
+
+.trip {
+  background-image: url('../img/trip.svg');
+  background-repeat: no-repeat;
+}
+
+.twitter {
+  margin-top: 25px;
+  background-image: url('../img/twitter.svg');
+  background-repeat: no-repeat;
+}
+
+.fb {
+  margin-top: 25px;
+  background-image: url('../img/fb.svg');
+  background-repeat: no-repeat;
+}
+
+.vk {
+  margin-top: 25px;
+  background-image: url('../img/vk.svg');
+  background-repeat: no-repeat;
+}
+
+.inst {
+  margin-top: 25px;
+  background-image: url('../img/inst.svg');
+  background-repeat: no-repeat;
+}
